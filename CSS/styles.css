@@ -1,0 +1,54 @@
+/* CSS General  */
+
+* {
+    margin: 0px;
+    padding: opx;
+
+}
+
+body {
+    font: 200 14px 'Poppins', sans-serif;
+    background-color: #222;
+    color: white;
+}
+
+h2 {
+    line-height: 36px;
+    font-size: 36px;
+}
+
+h3 {
+    color: #999;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p {
+    text-align: justify;
+}
+
+/* CSS de ID y Class */
+.subtittle {
+    color: #ffc900;
+}
+
+.section {
+    padding: 10px 100px 10px 100px;
+    
+}
+
+#About-me {
+    background-color: ;
+    color: ;
+}
+
+#Portfolio {
+    border-top: 1px solid #ffc900;
+    background-color: ;
+    color: ;
+}
+
+#Experience {
+    background-color: white ;
+    color: #222;
+}
