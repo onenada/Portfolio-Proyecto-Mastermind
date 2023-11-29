@@ -66,6 +66,9 @@ a:hover{
 i:hover {
     color: #ffc900;
 }
+button { 
+    border-radius: 10px;
+}
 
 /* CSS de ID y Class */
 .subtittle {
@@ -89,14 +92,67 @@ i:hover {
     color: #ffc900;
     font-size: 20px;
 }
-/* #About-me {
 
-} */
 #Portfolio {
     border-top: 1px solid #ffc900;
 
 }
+.filaPortfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.card {
+    width: 267px;
+    background-color: #191919;
+    border-radius: 15px;
+}
+.card img {
+    border-radius: 15px 15px 0px 0px;
+}
+.card h3{
+color: #ffc900;
+}
+.card h4 {
+    margin: 0px 5px 5px 0px;
+}
+.card .masinfo {
+    margin: 15px 0px 15px 0px;
+    height: 26px;
+}
+.card .masinfo button {
+    background-color: #ffc900;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+.card .sep{
+    margin: 0 5px 5px 0;
+    border: 1px solid #ffc900;
+}
+.card button {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.card h3, .card h4, .card p, .card .masinfo {
+    padding: 0px 15px;
+}
+
 #Experience {
     background-color: white ;
     color: #222;
+}
+
+#Experience h2, #Portfolio h2 {
+    text-align: center;
+}
+#Experience h3, #Portfolio h3 {
+    text-align: center;
+    margin-bottom: 30px;
 }
