@@ -3,51 +3,71 @@
 * {
     margin: 0px;
     padding: opx;
-
 }
-
 body {
     font: 200 14px 'Poppins', sans-serif;
     background-color: #222;
     color: white;
 }
-
 h2 {
     line-height: 36px;
     font-size: 36px;
 }
-
 h3 {
     color: #999;
     font-size: 18px;
     font-weight: 300;
 }
-
 p {
     text-align: justify;
+}
+li {
+    float: left;
+    margin-right: 5px;
+    padding-inline-start: 0px;
+}
+a:any-link {
+    color: white;
+
+}
+a:-moz-any-link {
+    color: white;
+}
+a:-webkit-any-link {
+    color: white;
+}
+i:hover {
+    color: #ffc900;
 }
 
 /* CSS de ID y Class */
 .subtittle {
     color: #ffc900;
 }
-
 .section {
     padding: 10px 100px 10px 100px;
-    
 }
-
+#Social-Media {
+    margin-top: 20px;
+    font-size: 40px;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+#Inicio {
+    background-image: url(../Img/Banner.jpg);
+    min-height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #About-me {
     background-color: ;
     color: ;
 }
-
 #Portfolio {
     border-top: 1px solid #ffc900;
     background-color: ;
     color: ;
 }
-
 #Experience {
     background-color: white ;
     color: #222;
