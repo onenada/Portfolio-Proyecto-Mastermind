@@ -18,13 +18,37 @@ h3 {
     font-size: 18px;
     font-weight: 300;
 }
+section {
+    padding: 10px 100px 10px 100px;
+}
 p {
     text-align: justify;
 }
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #222;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+nav ul {
+    display: inline-block;
+}
+nav ul li {
+    padding-top: 6px;
+}
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
 li {
     float: left;
-    margin-right: 5px;
+    margin-right: 15px;
     padding-inline-start: 0px;
+}
+a{
+    text-decoration: none;
 }
 a:any-link {
     color: white;
@@ -36,6 +60,9 @@ a:-moz-any-link {
 a:-webkit-any-link {
     color: white;
 }
+a:hover{
+    color: #ffc900;
+}
 i:hover {
     color: #ffc900;
 }
@@ -44,29 +71,30 @@ i:hover {
 .subtittle {
     color: #ffc900;
 }
-.section {
-    padding: 10px 100px 10px 100px;
-}
+
 #Social-Media {
     margin-top: 20px;
     font-size: 40px;
-    list-style: none;
-    padding-inline-start: 0px;
 }
 #Inicio {
+    padding-top: 75px;
     background-image: url(../Img/Banner.jpg);
     min-height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#About-me {
-    background-color: ;
-    color: ;
+
+#logoHernandez {
+    padding-top: 0px;
+    color: #ffc900;
+    font-size: 20px;
 }
+/* #About-me {
+
+} */
 #Portfolio {
     border-top: 1px solid #ffc900;
-    background-color: ;
-    color: ;
+
 }
 #Experience {
     background-color: white ;
