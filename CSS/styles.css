@@ -97,6 +97,102 @@ button {
     border-top: 1px solid #ffc900;
 
 }
+/* DropdownMenu About me */
+.dropdownmenu ul, .dropdownmenu li {
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul {
+	background: gray;
+	list-style: none;
+	width: 100%;
+    border-radius: 25px;
+}
+.dropdownmenu li {
+	float: left;
+	position: relative;
+	width:auto;
+}
+.dropdownmenu a {
+	background: #ffc900;
+	color: #222;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+.dropdownmenu li:hover a {
+	background: #ffc80094;
+}
+#submenu {
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1;
+}
+.dropdownmenu li:hover ul#submenu {
+	opacity: 1;
+	top: 40px;
+	visibility: visible;
+}
+#submenu li {
+	float: none;
+	width: 100%;
+}
+
+#submenu a{
+    color: white;
+}
+
+#submenu a:hover {
+	background: #ffc900;
+    color: #222;
+}
+#submenu a {
+	background-color:#000000;
+}
+
+#ddMenufirstButton{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#ddMenulastButton{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* Grid About Me */
+
+#About-me {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+
+#About-me h2{
+    margin-bottom: 15px;
+}
+
+#About-me-bar{
+    display: grid;
+    justify-content: center;
+}
+
+#About-me .dropdownmenu {
+    margin-top: 35px;
+    align-items: center;
+}
+
+
+/* Cards Portfolio */
 .filaPortfolio {
     display: flex;
     flex-direction: row;
