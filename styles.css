@@ -81,7 +81,7 @@ button {
 }
 #Inicio {
     padding-top: 75px;
-    background-image: url(../Img/Banner.jpg);
+    background-image: url(Img/Banner.jpg);
     min-height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,18 +106,18 @@ button {
 	background: gray;
 	list-style: none;
 	width: 100%;
-    border-radius: 25px;
 }
 .dropdownmenu li {
 	float: left;
 	position: relative;
 	width:auto;
+    
 }
 .dropdownmenu a {
 	background: #ffc900;
 	color: #222;
 	display: block;
-	font: bold 12px/20px sans-serif;
+	font: bold 12px/20px 'Poppins', sans-serif;
 	padding: 10px 25px;
 	text-align: center;
 	text-decoration: none;
@@ -126,11 +126,12 @@ button {
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
+    
 }
 .dropdownmenu li:hover a {
 	background: #ffc80094;
 }
-#submenu {
+.submenu {
 	left: 0;
 	opacity: 0;
 	position: absolute;
@@ -138,25 +139,26 @@ button {
 	visibility: hidden;
 	z-index: 1;
 }
-.dropdownmenu li:hover ul#submenu {
+.dropdownmenu li:hover ul.submenu {
+    background-color: #ffc900;
 	opacity: 1;
 	top: 40px;
 	visibility: visible;
 }
-#submenu li {
+.submenu li {
 	float: none;
 	width: 100%;
 }
 
-#submenu a{
-    color: white;
+.submenu a{
+    color: #222;
 }
 
-#submenu a:hover {
+.submenu a:hover {
 	background: #ffc900;
     color: #222;
 }
-#submenu a {
+.submenu a {
 	background-color:#000000;
 }
 
@@ -245,6 +247,14 @@ color: #ffc900;
 }
 
 /* Cards de Experience */
+
+.gridexp {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: space-between;
+    grid-gap: 10px;
+    align-content: space-around;
+}
 
 .cardexp{
     background-color: #222;
