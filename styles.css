@@ -27,7 +27,7 @@ p {
 nav {
     position: fixed;
     width: 100%;
-    background-color: #222;
+    background-color: black;
     border-bottom: 1px solid white;
     padding-top: 10px;
     text-align: center;
@@ -61,10 +61,10 @@ a:-webkit-any-link {
     color: white;
 }
 a:hover{
-    color: #ffc900;
+    color: #ffce1a;
 }
 i:hover {
-    color: #ffc900;
+    color: #ffce1a;
 }
 button { 
     border-radius: 10px;
@@ -72,11 +72,11 @@ button {
 
 /* CSS de ID y Class */
 .subtittle {
-    color: #ffc900;
+    color: #ffce1a;
 }
 
 #Social-Media {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 40px;
 }
 #Inicio {
@@ -89,12 +89,12 @@ button {
 
 #logoHernandez {
     padding-top: 0px;
-    color: #ffc900;
+    color: #ffce1a;
     font-size: 20px;
 }
 
 #Portfolio {
-    border-top: 1px solid #ffc900;
+    border-top: 1px solid #ffce1a;
 
 }
 /* DropdownMenu About me */
@@ -114,7 +114,7 @@ button {
     
 }
 .dropdownmenu a {
-	background: #ffc900;
+	background: #ffce1a;
 	color: #222;
 	display: block;
 	font: bold 12px/20px 'Poppins', sans-serif;
@@ -126,6 +126,7 @@ button {
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
+    width: 100px;
     
 }
 .dropdownmenu li:hover a {
@@ -140,27 +141,26 @@ button {
 	z-index: 1;
 }
 .dropdownmenu li:hover ul.submenu {
-    background-color: #ffc900;
+    background-color: #ffce1a;
 	opacity: 1;
 	top: 40px;
 	visibility: visible;
 }
-.submenu li {
-	float: none;
-	width: 100%;
-}
+
 
 .submenu a{
     color: #222;
+
 }
 
 .submenu a:hover {
-	background: #ffc900;
+	background: #ffce1a;
     color: #222;
 }
 .submenu a {
 	background-color:#000000;
 }
+
 
 #ddMenufirstButton{
     border-top-left-radius: 15px;
@@ -193,6 +193,9 @@ button {
     align-items: center;
 }
 
+#bodyAbout-me {
+    padding-left: 25px;
+}
 
 /* Cards Portfolio */
 .filaPortfolio {
@@ -213,7 +216,7 @@ button {
     border-radius: 15px 15px 0px 0px;
 }
 .card h3{
-color: #ffc900;
+color: #ffce1a;
 }
 .card h4 {
     margin: 0px 5px 5px 0px;
@@ -223,7 +226,7 @@ color: #ffc900;
     height: 26px;
 }
 .card .masinfo button {
-    background-color: #ffc900;
+    background-color: #ffce1a;
     font-weight: 600;
     padding-left: 15px;
     padding-right: 15px;
@@ -231,7 +234,7 @@ color: #ffc900;
 }
 .card .sep{
     margin: 0 5px 5px 0;
-    border: 1px solid #ffc900;
+    border: 1px solid #ffce1a;
 }
 .card button {
     padding: 5px;
@@ -245,6 +248,11 @@ color: #ffc900;
 .card .masinfo button a {
     color: #000000;
 }
+/* Experience */
+#Experience p{
+    margin-top: 35px;
+    font-size: 16px;
+}
 
 /* Cards de Experience */
 
@@ -254,6 +262,7 @@ color: #ffc900;
     justify-content: space-between;
     grid-gap: 10px;
     align-content: space-around;
+    margin: 30px 0px 30px 0;
 }
 
 .cardexp{
@@ -274,9 +283,13 @@ color: #ffc900;
 .cardexp ul{
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 15px;
 }
 .cardexp li{
     height: 30px;
+}
+.cardexp li i {
+    font-size: 38px;
 }
 
 #Experience {
@@ -287,7 +300,45 @@ color: #ffc900;
 #Experience h2, #Portfolio h2 {
     text-align: center;
 }
-#Experience h3, #Portfolio h3 {
+#Portfolio h3 {
     text-align: center;
     margin-bottom: 30px;
+}
+#Experience h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* Contactar  */
+
+#Contactar {
+    background-color: #ffce1a;
+}
+
+.ContactarSub {
+    color: #222;
+}
+
+/* Formulario */
+
+.itemform {
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.itemform label {
+    color: #222;
+}
+.itemform input, .itemform textarea {
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+input[type="submit"] {
+    background-color: #222;
+    border: 1px solid #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
 }
