@@ -69,7 +69,10 @@ i:hover {
 button { 
     border-radius: 10px;
 }
-
+video {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
 /* CSS de ID y Class */
 .subtittle {
     color: #ffce1a;
