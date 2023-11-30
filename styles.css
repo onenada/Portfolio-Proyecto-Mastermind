@@ -258,7 +258,7 @@ color: #ffce1a;
 
 .gridexp {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-content: space-between;
     grid-gap: 10px;
     align-content: space-around;
