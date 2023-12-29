@@ -84,7 +84,7 @@ video {
 }
 #Inicio {
     padding-top: 75px;
-    background-image: url(Img/Banner.jpg);
+    background-image: url('../Img/inicioBG.jpg');
     min-height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,6 +242,9 @@ color: #ffce1a;
 .card button {
     padding: 5px;
     margin-top: 5px;
+}
+.proyectosButton{
+    margin-right: 10px;
 }
 
 .card h3, .card h4, .card p, .card .masinfo {
