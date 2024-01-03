@@ -200,6 +200,10 @@ video {
     padding-left: 25px;
 }
 
+#imgAbout-me img{
+    border-radius: 80px;
+}
+
 /* Cards Portfolio */
 .filaPortfolio {
     display: flex;
